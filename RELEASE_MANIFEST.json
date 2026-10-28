@@ -1124,6 +1124,11 @@
       "path": "SUPPLEMENTARY_TABLE_MANIFEST.json",
       "bytes": 9023,
       "sha256": "2de3fb7f3ecfa790d40bf48797b5499a43e135c72326c79f2f08414980296310"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 64,
+      "sha256": "b25c712aa45e0a0c8212d88dec2d45c40a0876e91f07d991d8af624aed72b108"
     }
   ],
   "scope": "Original analysis code, study-specific derived/frozen inputs, protocols and figure assets; excludes raw provider workbooks and private manuscript-review records.",
