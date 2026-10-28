@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-15T19:53:53.522Z",
+  "status": "frozen_before_new_within_gene_guide_outcome_comparisons",
+  "question": "Within sourcegenes carrying multiple nORFs, do distinct reference products have context-dependent perturbation profiles associated with their target-assigned ribosome abundance?",
+  "why_new": "C70 tested within-ORF abundance/depletion association with canonical-host controls. This analysis compares different nORFs assigned to the same sourcegene, cancels shared gene-RNA and cell-library terms in the contrast, and requires guides that do not overlap the partner codingbody.",
+  "known_prior_outcomes": "Source outcome tables were already analyzed in C34,C66,C70,C83,C87. This is retrospective, not preregistered experimental discovery. New within-gene outcome contrasts, candidate identities and disease rankings have not been inspected.",
+  "universe": "All145 pairs among248nativeORFs in117single-source-Ensemblgenes; all2196nativeORFs remain the outer denominator. Exclude2056canonicalcontrols from the nativecohort.",
+  "pair_order": "Lexicographic sourceORF-ID order within literal stable Ensemblgene. No phenotype-based ordering.",
+  "guide_eligibility": "C83primary_geometry_eligible: unique primaryNGGsite,cutinside ownORF,single sourceassignment,fullprotospacer avoids any current protein-codingCDS. Require sourcepDNA coverage>=10inall3samples and wholeprotospacer to avoid every partnerORFcodingblock on its chromosome. Keep excludedguide reasons.",
+  "primary_pair_gate": "At least4eligible distinctguide sequences perproduct, mapped referenceproducts, finite outcomes and sourceRNA/Ribo inall8cells. Do not relax primarygate. Min3guides is descriptive sensitivity only.",
+  "primary_endpoint": "Weighted two-way-fixed-effect association of within-pair depletion difference with log1pRibo difference. Depletion=-sourceC83meanlogabundanceLFC. Remove pairmeans and cellmeans; weight eachpair by1/numberprimarypairsatitsgene, giving equalgeneweight. Report beta per residual predictorSD, incremental/partial explanatoryR2 and sourceeffectdistributions. One primaryendpoint;2000dependence-cluster bootstrap draws,seed20261015,95%percentileCI. Atleast10genes/clusters required.",
+  "dependence": "Use complete C70sourcegene/exonicdependence_union_cluster; allpairedproductsand8cells move together. Preserve correlations amongpairsatthesamegene.",
+  "declared_sensitivities": [
+    "All8leave-one-cell-out coefficients",
+    "SourceGChronosdepletion instead of guide-logabundance endpoint; same products/cells, not independent validation",
+    "Min3guide cohort descriptive point",
+    "Splice-safe>50nt subset with same min4gate; descriptive point",
+    "All single-guide omissions for any exploratory medical lead; do not select a favorable omission"
+  ],
+  "disease_secondary": "Exploratory Ewingcontrast: meanwithin-pairdepletiondifference across A673,CADOES1,RDES minus mean across A375,A549,HEPG2,JURKAT,THP1. Celllines are observationalsourcecontexts,not biologicalreplicates drawnfrompatients. Welchtestacross3versus5celllinecontrastvalues, jointBHacrossallprimarypairs. q<.05 andabscontrast>=.5 are leadfilteronly, not clinicalvalidation.",
+  "lead_qualification": "Orientedmore-Ewing-dependentproductmusthave sourceRNA>=10TPM andRibo>=5TPM inall3Ewingcells, meanEwingdepletion>=.5, ownEwing-minus-otherdepletion>=.5, and positiveEwing-minus-partnerdifference inall3Ewingcells. Allsingle-guideomissionleadcontrastsmustretaindirection. PublishedOLMALINC andotheralreadyreportedproductsremaincreditedcontrols,notnewdiscoveries.",
+  "independent_validation_feasibility": "Before newoutcomes, countpairs withboth completecodingchains exactly matched to olderpanel(C86). Do not call reusedguides or same-experimentChronosscores independent biological validation. No inferential olderpanel claim below10eligibleloci.",
+  "claim_limits": [
+    "Same sourcegene andidenticalsourcegeneRNAvalues do not prove co-transcription or isoformidentity.",
+    "Distinct guide-regionphenotypes do not isolate peptidecausality from RNA/regulatoryeffects.",
+    "SourceRiboscores do not prove independent footprint assignment or fullproteinproduction.",
+    "Diseasecontrast does not establish normal-tissue safety or efficacy.",
+    "A newmanuscript will require substantiveeffect andnovelty assessment; passingQAalone is insufficient."
+  ],
+  "external_source_status": "NewSeptember2026Ewing48tumorpreprintmetadataavailable; officialJATS429challenge saved andnotretried; noindependentlypubliclinkedDataCitedeposit orauthorrepositorylocatedinboundedlookup. No fulltext-dependentnoveltyclaimaccepted."
+}

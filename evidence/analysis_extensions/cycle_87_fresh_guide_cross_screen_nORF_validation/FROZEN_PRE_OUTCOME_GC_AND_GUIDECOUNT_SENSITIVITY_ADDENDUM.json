@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-15T15:53:42.942Z",
+  "status": "frozen_after_metadata_preflight_before_new_outcome_join",
+  "metadata_known": {
+    "primary_products": 88,
+    "clusters": 88,
+    "at_least2_each_group_products": 33,
+    "all3expression_qualified_products": 7
+  },
+  "additional_descriptive_sensitivity": "Fit equal-product OLS of the within-newer fresh-minus-reused LFC difference on an intercept, fresh-minus-reused mean guide GC fraction, and log2(fresh/reused eligible guidecount). Report the intercept at equal GC and equal groupcounts plus all coefficients; no additional significance or causal attribution claim.",
+  "guide_count_balanced_distribution": "The1000predeclared balanced-guide draws address unequal groupcount precision descriptively; variation over guide subsets is not a biological confidence interval.",
+  "no_new_group_outcome_or_rank_values_inspected": true,
+  "no_primary_endpoint_or_gate_changed": true
+}

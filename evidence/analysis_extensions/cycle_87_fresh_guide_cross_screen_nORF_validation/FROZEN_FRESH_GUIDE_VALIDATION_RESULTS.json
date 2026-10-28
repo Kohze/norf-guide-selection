@@ -1,0 +1,186 @@
+{
+  "utc": "2026-10-15T15:57:33.556474+00:00",
+  "status": "primary_and_all_declared_sensitivities_complete_pending_independent_verification",
+  "primary_products": 88,
+  "primary_dependence_clusters": 88,
+  "source_shared_cells": [
+    "A375",
+    "A549",
+    "HEPG2"
+  ],
+  "primary_fresh_minus_reused_LFC": 0.010389518539706941,
+  "primary_reused_minus_fresh_rank_agreement": 0.20237812857274076,
+  "primary_intervals": {
+    "fresh_minus_reused_LFC": {
+      "CI97_5": [
+        -0.0672928799771049,
+        0.08980798240829527
+      ],
+      "undefined_draws": 0,
+      "inference_gate_met": true
+    },
+    "reused_minus_fresh_rank_agreement": {
+      "CI97_5": [
+        0.0016140875442146394,
+        0.40243411986602146
+      ],
+      "undefined_draws": 0,
+      "inference_gate_met": true
+    }
+  },
+  "primary_per_cell_correlations": [
+    {
+      "variant": "primary",
+      "cell": "A375",
+      "products": 88,
+      "rho_old_vs_reused": 0.5371420520587511,
+      "rho_old_vs_fresh": 0.35072734317213206,
+      "rho_difference": 0.18641470888661904
+    },
+    {
+      "variant": "primary",
+      "cell": "A549",
+      "products": 88,
+      "rho_old_vs_reused": 0.6113733225317883,
+      "rho_old_vs_fresh": 0.2481244056214998,
+      "rho_difference": 0.36324891691028854
+    },
+    {
+      "variant": "primary",
+      "cell": "HEPG2",
+      "products": 88,
+      "rho_old_vs_reused": 0.45912311148174284,
+      "rho_old_vs_fresh": 0.40165235156042817,
+      "rho_difference": 0.057470759921314674
+    }
+  ],
+  "all_declared_sensitivity_points": [
+    {
+      "variant": "primary",
+      "products": 88,
+      "clusters": 88,
+      "fresh_minus_reused_LFC": 0.010389518539706941,
+      "reused_minus_fresh_rank_agreement": 0.20237812857274076,
+      "old_aggregation": "old_median"
+    },
+    {
+      "variant": "older_mean",
+      "products": 88,
+      "clusters": 88,
+      "fresh_minus_reused_LFC": 0.010389518539706941,
+      "reused_minus_fresh_rank_agreement": 0.2521236239919478,
+      "old_aggregation": "old_mean"
+    },
+    {
+      "variant": "unique_only_no_CDS_exclusion",
+      "products": 95,
+      "clusters": 95,
+      "fresh_minus_reused_LFC": 0.02060395932207116,
+      "reused_minus_fresh_rank_agreement": 0.19850223719181104,
+      "old_aggregation": "old_median"
+    },
+    {
+      "variant": "prior_source_AA_clean",
+      "products": 88,
+      "clusters": 88,
+      "fresh_minus_reused_LFC": 0.010389518539706941,
+      "reused_minus_fresh_rank_agreement": 0.20237812857274076,
+      "old_aggregation": "old_median"
+    },
+    {
+      "variant": "expression_qualified_all3",
+      "products": 7,
+      "clusters": 7,
+      "fresh_minus_reused_LFC": -0.08126549923952013,
+      "reused_minus_fresh_rank_agreement": -0.08333333333333336,
+      "old_aggregation": "old_median"
+    },
+    {
+      "variant": "at_least2_each_new_group",
+      "products": 33,
+      "clusters": 33,
+      "fresh_minus_reused_LFC": -0.06721115071502341,
+      "reused_minus_fresh_rank_agreement": 0.020958926006658125,
+      "old_aggregation": "old_median"
+    },
+    {
+      "variant": "newer_pc0_5",
+      "products": 88,
+      "clusters": 88,
+      "fresh_minus_reused_LFC": 0.01040632972795556,
+      "reused_minus_fresh_rank_agreement": 0.20242804511379764,
+      "old_aggregation": "old_median"
+    },
+    {
+      "variant": "newer_pc5",
+      "products": 88,
+      "clusters": 88,
+      "fresh_minus_reused_LFC": 0.010270823295092261,
+      "reused_minus_fresh_rank_agreement": 0.20307676902143876,
+      "old_aggregation": "old_median"
+    }
+  ],
+  "all3_cell_omissions": [
+    {
+      "omitted_cell": "A375",
+      "products": 88,
+      "fresh_minus_reused_LFC": 0.0005356759828132762,
+      "reused_minus_fresh_rank_agreement": 0.2103598384158016
+    },
+    {
+      "omitted_cell": "A549",
+      "products": 88,
+      "fresh_minus_reused_LFC": 0.013917781506207427,
+      "reused_minus_fresh_rank_agreement": 0.12194273440396686
+    },
+    {
+      "omitted_cell": "HEPG2",
+      "products": 88,
+      "fresh_minus_reused_LFC": 0.01671509813010012,
+      "reused_minus_fresh_rank_agreement": 0.2748318128984538
+    }
+  ],
+  "descriptive_adjusted_delta": {
+    "design_rank": 3,
+    "columns": [
+      "intercept_equal_GC_equal_counts",
+      "fresh_minus_reused_GC",
+      "log2_fresh_over_reused_guidecount"
+    ],
+    "coefficients": [
+      -0.06612858091777786,
+      0.22293297252259334,
+      -0.05642425886345462
+    ],
+    "descriptive_not_causal_or_additional_significance_test": true
+  },
+  "guide_count_balanced_summary": {
+    "fresh_minus_reused_LFC": {
+      "mean": 0.010474683911799277,
+      "guide_subset_percentile2_5_97_5": [
+        -0.03725519074461381,
+        0.061455444576872
+      ],
+      "Monte_Carlo_SE_of_mean": 0.0008133308406869489,
+      "undefined_draws": 0,
+      "not_biological_confidence_interval": true
+    },
+    "reused_minus_fresh_rank_agreement": {
+      "mean": 0.08631775733343167,
+      "guide_subset_percentile2_5_97_5": [
+        -0.013700522501453368,
+        0.1735815371536397
+      ],
+      "Monte_Carlo_SE_of_mean": 0.0015160720580003086,
+      "undefined_draws": 0,
+      "not_biological_confidence_interval": true
+    }
+  },
+  "source_guide_counts_newer_in_primary_cohort": {
+    "reused": 345,
+    "fresh": 138
+  },
+  "all_source_original_outcomes_retained": true,
+  "not_Chronos_CNV_or_clinical_endpoint": true,
+  "protein_specific_mechanism_or_new_medical_target_accepted": false
+}

@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-16T18:45:34.395937+00:00",
+  "status": "analyzed_pending_separate_verification",
+  "products": 87,
+  "guides": 417,
+  "guide_cell_pairs": 1251,
+  "dependence_clusters": 87,
+  "mean_newer_selection_shift": -0.2018012080014374,
+  "nominal95_cluster_CI": [
+    -0.24565021583003518,
+    -0.1600355731647954
+  ],
+  "older_training_shift": -0.13968364244783346,
+  "cell_specific_newer_shifts": {
+    "A375": -0.2538026856033529,
+    "A549": -0.1964854676103161,
+    "HEPG2": -0.15511547079064317
+  },
+  "single_product_omission_range": [
+    -0.2065518290541735,
+    -0.18750771050596104
+  ],
+  "rank_sensitivity_descriptive": {
+    "priority_budget": 18,
+    "reference_and_selected2_overlap": 13,
+    "reference_and_selected2_replacements": 5,
+    "random2_reference_overlap_median": 12.0,
+    "random2_reference_overlap_minmax": [
+      7,
+      16
+    ]
+  },
+  "exact_random2_expectation_max_difference": 2.220446049250313e-16,
+  "source": {
+    "path": "C:\\Users\\robin\\phdData\\norfs\\exploration_2026-10-11\\novelty_discovery\\cycle_90_within_product_shared_guide_concordance\\all1413_primary_shared_guide_cell_paired_residuals.csv",
+    "bytes": 768215,
+    "sha256": "6b04a82d2ebc99bc8c361d94ddff901efeb753aa2f423d8d9aa7a6f5c3eb89fe"
+  },
+  "limits": [
+    "The worked selection strategy was not used by either source study as far as this reanalysis establishes.",
+    "More-depleting selected guides may have better on-target editing activity;shift does not identify false positives or technical bias.",
+    "Count-balanced reused-versus-fresh product comparison remains uncertain.",
+    "Do not score individual candidate failures or add new medical targets from this scenario.",
+    "Nominal intervals condition on this retrospective question and fixed contexts."
+  ]
+}

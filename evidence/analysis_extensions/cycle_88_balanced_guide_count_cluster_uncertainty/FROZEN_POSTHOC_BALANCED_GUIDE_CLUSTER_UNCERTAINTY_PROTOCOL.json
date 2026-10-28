@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-15T16:16:02.552Z",
+  "status": "posthoc_robustness_protocol_frozen_before_balanced_target_bootstrap",
+  "motivation": "C87 raw rank-gap .20238 shrinks to .08632 under 1000 guide-count-balanced subsets. Their percentile range is not biological uncertainty. A target-cluster interval is necessary before interpreting residual agreement.",
+  "prior_results_seen": true,
+  "no_confirmatory_priority_claim": true,
+  "estimands": [
+    "Average over all existing1000 balanced guide plans of equal3cell Spearman rank-agreement difference (older vs reused minus older vs fresh).",
+    "Average over all existing1000 balanced guide plans of equalproduct/3cell fresh-minus-reused LFC."
+  ],
+  "plans": "Reuse exactly all2000 C87 target-cluster draws and all1000 C87 balanced guide choices, with no new random draws or filtering.",
+  "method": "For each target-cluster draw compute each balanced-plan statistic on the complete duplicated product sample, then average all1000 plan estimates. Percentile97.5% intervals for two posthoc endpoints; retain undefined values and apply existing1% undefined gate. These are target-sampling intervals conditional on the fixed1000-plan approximation, not experimental replicates or a causal correction.",
+  "implementation": "Weighted tied-midrank Spearman exactly represents duplicated products. Validate against explicit duplication using scipy.stats.spearmanr for the first20 cluster draws and first20 guide plans, all3cells and2newer groups.",
+  "MC_check": "Retain all1000 point estimates and report first500 versus last500 plan-averaged point estimates and primary MCSE already saved. No selecting best subset or draw.",
+  "claim_limits": [
+    "No equivalence conclusion from an interval containing zero.",
+    "Unequal counts are a measurement-precision explanation, not a proven exclusive cause.",
+    "No peptide-specific or clinical inference.",
+    "This sensitivity was added after inspecting C87 and is labelled posthoc."
+  ]
+}

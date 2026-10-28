@@ -1,0 +1,8 @@
+analysis,products,guides,guide_cell_pairs,correlation,dependence_clusters,nominal95_cluster_CI,permutation_extreme_count,permutation_two_sided_add_one_P
+primary_source_pDNA_to_D21,16,72,144,0.9112367473610258,16.0,"[0.8486546508566268, 0.948018311783693]",0.0,0.0001999600079984003
+atleast4_shared,13,63,126,0.9049355348249987,,,,
+all6_secondary_ETP_ge10,16,72,144,0.9112367473610258,,,,
+ETP_to_D21_source,16,72,144,0.8334377465675654,,,,
+direct_count_meanlogCPM,16,72,144,0.9112367473610256,,,,
+cell_A375,16,72,72,0.9408478079929725,,,,
+cell_HEPG2,16,72,72,0.8411100972997786,,,,

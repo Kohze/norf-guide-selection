@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "all522_selections_and_contrasts_recomputed": true,
+  "all16000_bootstrap_estimates_recomputed": true,
+  "all8_summaries_recomputed": true,
+  "all8_intervals_checked_by_manual_interpolation": true,
+  "max_abs_difference": 2.7755575615628914e-16,
+  "scope": "Independent expression of calculations within this project; not external scientific validation",
+  "source_sha256": "5c9f7495dfb5308839b60c3849a28d57aa4a3f82e720a23cd4fc40fb4ffb0260"
+}

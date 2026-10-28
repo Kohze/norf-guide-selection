@@ -1,0 +1,56 @@
+{
+  "utc": "2026-10-15T15:45:24.307Z",
+  "status": "frozen_before_new_guide_reuse_conditioned_outcome_joins",
+  "question": "For exactly matched nORF products, is cross-screen fitness agreement retained with guides absent from the older library, and do reused and fresh guides produce different abundance changes within the newer assay?",
+  "known_before_new_analysis": [
+    "Complete source phenotype tables and overall benchmarks were inspected in prior cycles; this is retrospective reanalysis.",
+    "C86identity/reagentinventory is independentlyverified:127exactcompletecodingchainpairs;all127reuseatleastoneguide. No guide-reuse-conditioned outcomes have been inspected.",
+    "Three literal commoncelllabels are A375,A549,HEPG2; no cell-label alias rescue is needed."
+  ],
+  "primary_product_cohort": "All127 C86 exact_complete_reference_coding_chain_and_DNA pairs; two unmapped oldercandidates and all other relations remain in complete inventories, not imputed as negatives.",
+  "primary_guide_eligibility": "Existing C83 primary_geometry_eligible: unique primary-chromosome NGG site with expected cut inside assigned ORF, single source target assignment, and full protospacer avoiding current CDS on either strand. Newer guides additionally require all3sourceplasmid counts>=10. Older guide LFCs must be source-present; missing is retained, never negative.",
+  "guide_groups": {
+    "reused": "Exact20ntsequence present among the matched older ORF assigned guides; guide need not pass older current-annotation eligibility to count as a reused reagent, but the old target score uses eligible old guides.",
+    "fresh": "Exact20ntsequence absent from the entire original5776-guide source library, including controls and other targets.",
+    "other_old_library_reuse": "Present in older library but assigned to another target; retained as separateexcludedgroup, not called fresh."
+  },
+  "paired_eligibility": "At least1 eligible older guide and at least1 eligible newer reused and1 newer fresh guide for the product; all3sharedcells must have source measurements. No expression threshold in primary cohort. Missing/gate failures retained in all127denominators.",
+  "measurements": {
+    "older": "Median released LFC_D21_relative_to_pDNA across eligible old guides for each product/cell; no original Chronos score or hit flag substituted.",
+    "newer": "Existing independentlyverified C83 LFC: meanlog2(3lateprovidedcounts+1)-meanlog2(3plasmidprovidedcounts+1). Source-provided abundance endpoint, not infectedearly/CNV-corrected score.",
+    "new_group_aggregation": "Arithmetic mean of eligible per-guide LFCs within each product/cell/group."
+  },
+  "primary_endpoints": {
+    "within_newer_depletion_difference": "Newer fresh-group mean LFC minus reused-group mean LFC; equalmean over3sharedcells withinproduct, then equalproductmean. Positive means reusedguides showmoredepletion.",
+    "cross_screen_rank_agreement_difference": "Within each sharedcell, Spearman rho(oldermedian,newerreusedmean)-rho(oldermedian,newerfreshmean), using exactly the same eligible products. Equalmean of the3cell-specific differences. Individual correlations and source sample sizes retained."
+  },
+  "uncertainty": {
+    "dependence_clusters": "Union connected components of matched product pairs sharing C66 oldsource exoniclocus clusters or C70 newer sourcegene/exonic dependence_union_cluster; wholeproduct allcell/guide rows travel together.",
+    "draws": 2000,
+    "seed": 20261015,
+    "primary_family": "Two primary endpoints; 97.5% percentile cluster-bootstrap intervals for each. No universal population or clinical interpretation.",
+    "inferential_gate": "At least10independent clusters and10products, with nonconstant finite scores for every requiredcell correlation; otherwise descriptive/noCI. Do not relax gate.",
+    "bootstrap_missing_rule": "Retain and report any undefined bootstrap statistic; do not quietly discard. If undefined draws exceed1%, no inferential interval for that endpoint."
+  },
+  "frozen_sensitivities": [
+    "Source older mean instead of median, with allotherprimary eligibilityfixed.",
+    "No current CDS exclusion: unique primaryNGGinsideassignedORF only; retaincurrentCDSflags and primarypDNAcoverage.",
+    "Exclude prior source DNA-AA-other-disagreement candidates; no sequence repair.",
+    "Expression-qualified cohort: source2026 RNA>=10TPM and Ribo>=5TPM in all3sharedcells; unknownexcludedasunknown.",
+    "At least2eligible newer guides in each reused/fresh group.",
+    "Newer pseudocount0.5and5 from originalsourceBcounts; retain primaryguide eligibility and originalpDNAcoverage.",
+    "Three leave-one-common-cell-out point estimates; no bestcellselection.",
+    "Guide-count-balanced comparison:1000seeded draws perprimarycohort, selectk=min(nreused,nfresh)guideswithoutreplacementfromeachgroup perproduct, same selectedguides across3cells. Saveeverydraw, individualcorrelations and differences; variation overguidechoices is a descriptiveguide-subset distribution, not biologicalCI."
+  ],
+  "additional_uncertainty_scope": "Bootstrap primary only; secondary sensitivities are descriptive complete point-estimate inventories, not additional discoveries or independent validations.",
+  "claim_limits": [
+    "Guide-reuse association may reflect on-target efficiency, prior reagent selection, guidecount-dependent precision or off-target effects; it does not identify any one mechanism.",
+    "Fresh-guide agreement is not proof of peptide causality; DNA cuts can affect RNA, regulation or copy-number-related toxicity.",
+    "Assays use different dates/batches and processednormalization; rankcomparisons and within-newer contrasts do not establish common absolute scales.",
+    "Originalnewerexperiment is independent as an assay evenwhenreagentsare reused. Reuse does not make all replication invalid.",
+    "Gene/locus relations in C86 are not asserted to be authors claims of full-productreplication.",
+    "No clinical efficacy, safety, newtranslation or absolutepriority claim."
+  ],
+  "no_new_model_training_or_foundation_model_inference": true,
+  "computational_only": true
+}

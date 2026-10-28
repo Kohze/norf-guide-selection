@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-16T09:55:51.892Z",
+  "design": "Retrospective additional-assay test frozen before the secondary/newer outcome join; not preregistration.",
+  "primary_universe": "127 exact complete-product coding-chain/DNA matches from C86, without new gene or product remapping.",
+  "guide_eligibility": "C87 newer guide primary_eligible true, unique exact primary NGG site, cut within assigned product, protospacer CDS-free, unique source assignment. Secondary Table S27 Gene_type ORF_exon, remove only terminal _exon[0-9]+ from secondary Gene Symbol, require literal match to older source name. Exact20nt sequence match to secondary library and secondary counts; secondary pDNA >=10. At least3 eligible shared guides per product, finite released LFC in both cells.",
+  "contexts": [
+    "A375",
+    "HEPG2"
+  ],
+  "primary_secondary_endpoint": "Table S27 source-published LFC A375 pDNA_D21 / LFC HepG2 pDNA_D21. 2026 outcomes inherited unchanged from C87.",
+  "primary_estimand": "Equal-product/equal-cell weighted correlation of secondary2021 and newer2026 guide responses after separate product-by-cell centring.",
+  "uncertainty": "2000 dependence-cluster percentile bootstrap samples seed20261016, all guides and cells move jointly;95% interval. Dependence groups inherited C87.",
+  "permutation": "5000 within-product guide-identity permutations seed20261017, profiles move jointly across cells;two-sided add-one P.",
+  "sensitivities": [
+    "Atleast4eligible_shared_guides",
+    "Per-cell correlations",
+    "Secondary both-cell ETP>=10 in all3replicates, atleast3guides",
+    "Source ETP-to-final LFC rather than pDNA-to-final LFC",
+    "Direct raw count reconstruction using mean log2(CPM+1)final minus log2(CPM+1)pDNA",
+    "All single-product omissions"
+  ],
+  "limits": [
+    "2021 follow-up target selection is retrospective and enriched; not random target sampling.",
+    "Follow-up screen shares authors and study with older primary assay. Not a third independent study.",
+    "No new peptide mechanism, therapeutic selectivity, reuse inflation or candidate failure established.",
+    "Do not relax source-name, coverage or minimum-guide eligibility if cohort is small or result is null."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-15T20:02:41.732Z",
+  "status": "frozen_before_within_product_shared_guide_residual_comparison",
+  "motivation": "Strengthen the existing guide-validation question by estimating reproducibility of guide-specific responses conditional on product and cell. Do not reinterpret the uncertain balanced product-level correlation gap as significant.",
+  "prior_outcome_knowledge": "All underlying guide outcomes and product averages were already analyzed in C87/88. This is a retrospective new estimand, not preregistration or independent data.",
+  "universe": "127 exact complete-reference coding-chain/DNA product matches. Both-source geometry and coverage eligibility inherited unchanged from C87; shared guides must map to identical chromosome and cut. No fresh-guide requirement.",
+  "primary_cohort": "At least3 shared eligible guides, finite both-screen LFC in all3 common cells. Metadata preflight:105products/105clusters/471guide sequences. Do not relax threshold.",
+  "primary_endpoint": "Equal-product and equal-cell weighted Pearson correlation between old and new guide LFC after subtracting each product-by-cell shared-guide mean in each screen. Each guide-cell weight=1/(3*nSharedGuidesAtProduct). This measures persistent relative guide response, not peptide causality.",
+  "uncertainty": "2000 dependence-cluster bootstrap draws, seed20261015,95%percentileCI. All guides and3cells per product move jointly. One primary endpoint.",
+  "permutation_check": "5000 within-product random guide-identity permutations; each guide permutation fixed jointly across3cells, seed20261016. Two-sided add-one empiricalP for primarycorrelation. This tests pairing association under exchangeability, not independent biological replication or off-target causation.",
+  "secondary": [
+    "All3cell-specific residual correlations",
+    "Minimum4shared-guide cohort",
+    "Both-screen splice-safe>50nt,atleast3shared cohort",
+    "Within-product-by-cell guide ranks instead of rawLFC",
+    "Descriptive GC-by-cell adjustment of both centred responses",
+    "All single-product omissions",
+    "Raw covariance decomposition into between-product and within-product contributions after removing common cell means; no causal variance attribution"
+  ],
+  "claim_limits": [
+    "A persistent guide response could reflect on-target disruption efficacy, RNA/regulatory effects, off-target effects or other site/reagent properties.",
+    "Exact sequence reuse does not prove intentional design transfer.",
+    "Complete product identity is a reference-model comparison, not experimentally verified protein equivalence.",
+    "The balanced product-level agreement difference remains uncertain, irrespective of this residual result.",
+    "This analysis cannot establish a new medical target or clinical safety."
+  ],
+  "source_input_directory": "C:/Users/robin/phdData/norfs/exploration_2026-10-11/novelty_discovery/cycle_87_fresh_guide_cross_screen_nORF_validation"
+}

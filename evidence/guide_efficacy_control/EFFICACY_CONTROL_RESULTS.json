@@ -1,0 +1,128 @@
+{
+  "kind": "fixed_parameter_synthetic_positive_control",
+  "parameters_fitted_to_empirical_data": false,
+  "empirical_guide_outcomes_read": false,
+  "empirical_mechanism_identified": false,
+  "empirical_variance_or_covariance_explained_estimated": false,
+  "synthetic_products_per_condition": 2000,
+  "conditions": 3,
+  "noise_levels": 4,
+  "analytical_noiseless_shared_r": 1.0,
+  "analytical_noiseless_shared_shift": -0.3,
+  "interpretation": "Shared on-target efficacy acting on true dependencies can generate both endpoints. This demonstrates compatibility; it does not estimate whether efficacy explains the observed data.",
+  "results": [
+    {
+      "condition": "shared_efficacy",
+      "noise_sd": 0.0,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": 1.0,
+      "selected_minus_all_mean": -0.2999999999999999
+    },
+    {
+      "condition": "equal_efficacy",
+      "noise_sd": 0.0,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": null,
+      "selected_minus_all_mean": 0.0
+    },
+    {
+      "condition": "permuted_later_labels",
+      "noise_sd": 0.0,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": -0.008300000000000002,
+      "selected_minus_all_mean": 0.005850000000000001
+    },
+    {
+      "condition": "shared_efficacy",
+      "noise_sd": 0.25,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": 0.6368590744062473,
+      "selected_minus_all_mean": -0.26820191637580115
+    },
+    {
+      "condition": "equal_efficacy",
+      "noise_sd": 0.25,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": -0.009240339166818719,
+      "selected_minus_all_mean": 0.0008291489572009077
+    },
+    {
+      "condition": "permuted_later_labels",
+      "noise_sd": 0.25,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": 0.01081647942495634,
+      "selected_minus_all_mean": 0.0041072411554399476
+    },
+    {
+      "condition": "shared_efficacy",
+      "noise_sd": 0.5,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": 0.3121919365368639,
+      "selected_minus_all_mean": -0.18802649878796235
+    },
+    {
+      "condition": "equal_efficacy",
+      "noise_sd": 0.5,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": 0.0062203152188969974,
+      "selected_minus_all_mean": -0.0036833779301551363
+    },
+    {
+      "condition": "permuted_later_labels",
+      "noise_sd": 0.5,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": -0.012805323294006415,
+      "selected_minus_all_mean": 0.0017375060699481408
+    },
+    {
+      "condition": "shared_efficacy",
+      "noise_sd": 1.0,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": 0.11186032107347464,
+      "selected_minus_all_mean": -0.12422499241894693
+    },
+    {
+      "condition": "equal_efficacy",
+      "noise_sd": 1.0,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": 0.0026728685645995257,
+      "selected_minus_all_mean": -0.0035828589339598196
+    },
+    {
+      "condition": "permuted_later_labels",
+      "noise_sd": 1.0,
+      "synthetic_products": 2000,
+      "guides_per_product": 4,
+      "fixed_contexts": 3,
+      "residual_Pearson_r": 0.008893582958006812,
+      "selected_minus_all_mean": -0.0026890277704168853
+    }
+  ],
+  "output_sha256": {
+    "all_synthetic_guide_outcomes.npz": "b0c7cb0b43319912e30c01bb1e5cc8dfeff85eb001e90bfc3803a76fd5988296",
+    "all_synthetic_product_selection_contrasts.csv": "8f5ee7cf4ad211e20959f44453a7c53902fe35c70af5fc923279cd8d1c0f6bee",
+    "synthetic_control_summary.csv": "11806da753be3f63b34921305204eb7fdd04cc28a9cd4103d9fe8ba57b843e0b"
+  }
+}

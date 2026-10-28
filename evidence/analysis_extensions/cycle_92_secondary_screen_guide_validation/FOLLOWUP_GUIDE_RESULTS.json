@@ -1,0 +1,94 @@
+{
+  "utc": "2026-10-16T18:43:29.708549+00:00",
+  "status": "analyzed_pending_separate_verification",
+  "primary": {
+    "analysis": "primary_source_pDNA_to_D21",
+    "products": 16,
+    "guides": 72,
+    "guide_cell_pairs": 144,
+    "correlation": 0.9112367473610258,
+    "dependence_clusters": 16,
+    "nominal95_cluster_CI": [
+      0.8486546508566268,
+      0.948018311783693
+    ],
+    "permutation_extreme_count": 0,
+    "permutation_two_sided_add_one_P": 0.0001999600079984003
+  },
+  "sensitivities": [
+    {
+      "analysis": "primary_source_pDNA_to_D21",
+      "products": 16,
+      "guides": 72,
+      "guide_cell_pairs": 144,
+      "correlation": 0.9112367473610258,
+      "dependence_clusters": 16,
+      "nominal95_cluster_CI": [
+        0.8486546508566268,
+        0.948018311783693
+      ],
+      "permutation_extreme_count": 0,
+      "permutation_two_sided_add_one_P": 0.0001999600079984003
+    },
+    {
+      "analysis": "atleast4_shared",
+      "products": 13,
+      "guides": 63,
+      "guide_cell_pairs": 126,
+      "correlation": 0.9049355348249987
+    },
+    {
+      "analysis": "all6_secondary_ETP_ge10",
+      "products": 16,
+      "guides": 72,
+      "guide_cell_pairs": 144,
+      "correlation": 0.9112367473610258
+    },
+    {
+      "analysis": "ETP_to_D21_source",
+      "products": 16,
+      "guides": 72,
+      "guide_cell_pairs": 144,
+      "correlation": 0.8334377465675654
+    },
+    {
+      "analysis": "direct_count_meanlogCPM",
+      "products": 16,
+      "guides": 72,
+      "guide_cell_pairs": 144,
+      "correlation": 0.9112367473610256
+    },
+    {
+      "analysis": "cell_A375",
+      "products": 16,
+      "guides": 72,
+      "guide_cell_pairs": 72,
+      "correlation": 0.9408478079929725
+    },
+    {
+      "analysis": "cell_HEPG2",
+      "products": 16,
+      "guides": 72,
+      "guide_cell_pairs": 72,
+      "correlation": 0.8411100972997786
+    }
+  ],
+  "single_product_omission_range": [
+    0.8915729700483028,
+    0.9202237650031534
+  ],
+  "source_direct_count_LFC_comparison": {
+    "max_absolute_difference": 7.993605777301127e-15,
+    "Pearson": 0.9999999999999994
+  },
+  "limitations": [
+    "2021 follow-up target selection is retrospective and enriched; not random target sampling.",
+    "Follow-up screen shares authors and study with older primary assay. Not a third independent study.",
+    "No new peptide mechanism, therapeutic selectivity, reuse inflation or candidate failure established.",
+    "Do not relax source-name, coverage or minimum-guide eligibility if cohort is small or result is null."
+  ],
+  "software": {
+    "numpy": "1.26.4",
+    "pandas": "2.0.3"
+  }
+}

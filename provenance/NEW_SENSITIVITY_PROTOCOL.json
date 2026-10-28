@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-26",
+  "baseline": "exploration_2026-10-23/manuscript_v18",
+  "status_at_recording": "specified_before_new_sensitivity_computation",
+  "design": "Post hoc sensitivity of an already known retrospective result; not preregistration or independent validation",
+  "question": "Does earlier-screen-only guide selection retain a later-screen depletion shift when the older selection score excludes the evaluated cell context?",
+  "input": "Frozen Table S25; all 1251 guide-cell rows in the existing 87-product, 417-guide selection cohort",
+  "cells": ["A375", "A549", "HEPG2"],
+  "fixed_cohort": true,
+  "rule": "For each product and evaluation cell, average older LFC over the other two cells, select the two lowest-scoring guides, resolve ties by lexicographic guide sequence, and evaluate only the later LFC in the excluded cell",
+  "reference": "Exact expectation under uniform random selection of two eligible guides without replacement, equal to the all-eligible-guide mean for that product and evaluation cell",
+  "outputs": [
+    "All product-cell selected guides, later scores and selected-minus-reference contrasts",
+    "Equal-product mean shift in each of the three held-out contexts",
+    "Equal-product and equal-context mean shift",
+    "Descriptive median and count of negative/zero/positive product-average shifts for the original and held-out-context strategies",
+    "All single-product omissions for the held-out-context mean"
+  ],
+  "uncertainty": "2000 dependence-group bootstrap samples with NumPy default_rng seed 20261026, retaining all cells jointly; nominal 95 percent percentile intervals for descriptive post hoc sensitivity, no new confirmatory hypothesis test",
+  "no_tuning": "No alternate cohort, guide minimum, selection count, cell subset or score is chosen based on results",
+  "verification": "Reproduce original v18 selection estimate and per-cell values; independently reconstruct selections from a guide-by-cell matrix; verify exact random-pair expectation by enumerating all pairs for every product-cell",
+  "interpretation_limits": [
+    "The three fixed cell contexts and products were already known and are not new validation samples",
+    "The evaluated cell is excluded only from the older selection score; this is not evaluation in a biologically unseen cell line",
+    "Different evaluated cells may select different guide pairs",
+    "Nominal intervals condition on retrospective analysis choices and are not multiplicity-adjusted across the research program",
+    "No molecular mechanism, false-positive target, clinical utility or optimal guide strategy is established"
+  ]
+}

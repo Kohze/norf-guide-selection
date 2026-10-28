@@ -1,0 +1,41 @@
+{
+  "sources": [
+    {
+      "label": "Prensner secondary design and results",
+      "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41587-020-00806-2/MediaObjects/41587_2020_806_MOESM5_ESM.xlsx",
+      "bytes": 13274323,
+      "sha256": "8be00abc5a2bd302d820fc84fb1041375aba53f496191e3368b27af71845a4bd",
+      "redistributed": false
+    },
+    {
+      "label": "Prensner secondary counts",
+      "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41587-020-00806-2/MediaObjects/41587_2020_806_MOESM12_ESM.xlsx",
+      "bytes": 1018945,
+      "sha256": "649b83c7c305f4fbdcddfacefe035f06675bbd3fbf6aa7a3e1b936b54b764cb7",
+      "redistributed": false
+    },
+    {
+      "label": "Deutsch current screen Supplementary Table 13",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10459-x/MediaObjects/41586_2026_10459_MOESM15_ESM.xlsx",
+      "bytes": 24494296,
+      "sha256": "c6fcbe6a13d0e183b822571ad5a17e4dd973f18481e4e10fcb1a4b7c1aeb7ff7",
+      "redistributed": false
+    },
+    {
+      "label": "Deutsch reference sequences Supplementary Table 14",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10459-x/MediaObjects/41586_2026_10459_MOESM16_ESM.xlsx",
+      "bytes": 2027954,
+      "sha256": "d1f3029127820a8805eb1cef646671d915ec8124a4fd7ff5f686dff4a924bdfe",
+      "redistributed": false
+    },
+    {
+      "label": "Schlesinger author table at pinned commit",
+      "url": "https://raw.githubusercontent.com/elsasserlab/schlesinger_microprotein_screen/6ca8f3961e8a94fb116984b9ac6e1f4f08678006/Figure1_S2/gene_summaries_final_v4.csv",
+      "bytes": 19588089,
+      "sha256": "e42349b4cabba694f3b3c6d9a195b1620c96bddcb1c06aa553330505a22a96d1",
+      "commit": "6ca8f3961e8a94fb116984b9ac6e1f4f08678006",
+      "redistributed": false
+    }
+  ],
+  "reference_geometry": "hg38, Phase-1 ORF catalogue and GENCODE v50: see frozen reference/product protocols and source-study citations. Full genome and annotation archives are external inputs, not required for frozen-input statistical replay."
+}

@@ -1,0 +1,5 @@
+endpoint,method,estimate,lower,upper,interval_level,products
+reused_minus_fresh_rank_agreement,Observed guide counts,0.20237812857274076,0.0016140875442146394,0.40243411986602146,0.975,88
+reused_minus_fresh_rank_agreement,Count-balanced (post hoc),0.08631775733343165,-0.09387537268920436,0.2679371790788387,0.975,88
+fresh_minus_reused_LFC,Observed guide counts,0.010389518539706941,-0.0672928799771049,0.08980798240829527,0.975,88
+fresh_minus_reused_LFC,Count-balanced (post hoc),0.010474683911799277,-0.06756122882588526,0.09019222758053089,0.975,88

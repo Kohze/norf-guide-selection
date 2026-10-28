@@ -1,0 +1,7 @@
+identity_relation_class,pairs,older_ORFs,newer_ORFs,pairs_with_reused_guide,reused_pair_guide_assignments
+body_overlap_without_same_phase_coding_body,13,13,13,7,22
+different_start_with_same_phase_body_overlap,31,31,30,27,90
+exact_complete_reference_coding_chain_and_DNA,127,127,127,127,550
+exact_literal_complete_AA_with_different_chain_or_DNA,2,2,2,2,6
+same_genomic_start_nonidentical_complete_AA,17,17,17,17,63
+same_source_gene_without_coding_body_overlap,84,75,82,2,6

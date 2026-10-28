@@ -1,0 +1,62 @@
+{
+  "conditional_shared_guide_products": 105,
+  "unique_shared_guides": 471,
+  "guide_cell_pairs": 1413,
+  "within_product_cell_residual_correlation": 0.643240817314233,
+  "nominal95_cluster_CI": [
+    0.5758356246848134,
+    0.6964913047777839
+  ],
+  "within_product_fraction_of_cross_screen_covariance": 0.6213848751946298,
+  "covariance_fraction_is_not_causal_variance_explained": true,
+  "count_balanced_product_agreement_gap": 0.08631775733343165,
+  "balanced_gap_CI97_5": [
+    -0.09387537268920436,
+    0.2679371790788387
+  ],
+  "C89_qualified_Ewing_leads": 0,
+  "additional_followup_products": 16,
+  "additional_followup_shared_guides": 72,
+  "additional_followup_cell_contexts": [
+    "A375",
+    "HEPG2"
+  ],
+  "additional_followup_correlation": 0.9112367473610258,
+  "additional_followup_nominal95_cluster_CI": [
+    0.8486546508566268,
+    0.948018311783693
+  ],
+  "additional_followup_is_third_independent_study": false,
+  "older_only_selection_products": 87,
+  "older_only_selection_guides": 417,
+  "selected_guides_per_product": 2,
+  "transferred_newer_LFC_shift": -0.2018012080014374,
+  "selection_nominal95_cluster_CI": [
+    -0.24565021583003518,
+    -0.1600355731647954
+  ],
+  "selection_reference": "Exact expectation under uniform two-guide selection",
+  "selection_is_retrospective_worked_scenario": true,
+  "individual_false_target_calls_established": false,
+  "third_published_study_exact_products": 196,
+  "third_study_dependence_groups": 192,
+  "third_study_A375_Spearman_rho": 0.462424594984421,
+  "third_study_nominal95_cluster_CI": [
+    0.34940831617340795,
+    0.5694929503955677
+  ],
+  "third_study_top40_overlap": 17,
+  "third_study_top40_uniform_random_expectation": 8.16326530612245,
+  "third_study_guide_sequence_independence": null,
+  "third_study_individual_guide_validation": false,
+  "third_study_cohort_products_LFC_at_or_below_minus1": 0,
+  "context_excluded_selection_mean": -0.1919270448616119,
+  "context_excluded_selection_nominal95_CI": [
+    -0.23492098335550846,
+    -0.1538315993792598
+  ],
+  "context_excluded_selection_negative_products": 81,
+  "original_selection_negative_products": 79,
+  "context_exclusion_is_post_hoc": true,
+  "context_exclusion_is_unseen_cell_validation": false
+}

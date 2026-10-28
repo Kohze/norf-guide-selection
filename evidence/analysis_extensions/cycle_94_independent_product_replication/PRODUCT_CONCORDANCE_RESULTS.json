@@ -1,0 +1,86 @@
+{
+  "utc_started": "2026-10-21T11:46:53.286767+00:00",
+  "utc_completed": "2026-10-21T11:46:54.233219+00:00",
+  "protocol_sha256": "65ef7215e6deda33e60e6d08284c4ecde99192866c7d64548cdb5611eb4dc3f4",
+  "status": "completed_pending_separate_verification",
+  "primary": {
+    "products": 196,
+    "clusters": 192,
+    "newer_guides": 1147,
+    "rho": 0.462424594984421,
+    "nominal95_cluster_CI": [
+      0.34940831617340795,
+      0.5694929503955677
+    ],
+    "pearson": 0.4677915834436197
+  },
+  "missing_products": 0,
+  "source2025_nonfinite_cells_full_library": 0,
+  "secondary_descriptive": [
+    {
+      "analysis": "A375_r1_1_0_lfc",
+      "products": 196,
+      "clusters": 192,
+      "rho": 0.40170373498872414
+    },
+    {
+      "analysis": "A375_r2_1_0_lfc",
+      "products": 196,
+      "clusters": 192,
+      "rho": 0.3809353807903482
+    },
+    {
+      "analysis": "within_third_study_replicates",
+      "products": 196,
+      "clusters": 192,
+      "rho": 0.46961885105467416
+    },
+    {
+      "analysis": "source2026_median_guides",
+      "products": 196,
+      "clusters": 192,
+      "rho": 0.5016025308991227
+    },
+    {
+      "analysis": "source2026_splice_safe_min4",
+      "products": 140,
+      "clusters": 136,
+      "rho": 0.44601255166079906
+    },
+    {
+      "analysis": "one_product_per_dependence_cluster",
+      "products": 192,
+      "clusters": 192,
+      "rho": 0.4721502590673575
+    },
+    {
+      "analysis": "in_exact2021_2026_inventory",
+      "products": 13,
+      "clusters": 13,
+      "rho": 0.8351648351648352
+    }
+  ],
+  "single_cluster_omission_rho_range": [
+    0.45434300603667316,
+    0.4791823787405525
+  ],
+  "top20percent": {
+    "selected_in_each": 40,
+    "overlap": 17,
+    "overlap_fraction": 0.425,
+    "uniform_random_expectation": 8.16326530612245,
+    "descriptive_only": true
+  },
+  "source_guides_independent": null,
+  "guide_level_validation": false,
+  "new_medical_target": false,
+  "scope": "Third-study product-level A375 concordance; guide reuse unknown. No peptide-specific or disease-selectivity conclusion.",
+  "limits": [
+    "No guide-sequence independence established.",
+    "Source2025 D4-toD21 and source2026 plasmid-toendpoint differ in baselines, guide filtering and summarization.",
+    "Study/cell conditions and source25CCDS22 vs currentsource26CDS annotations differ.",
+    "Only A375 evaluated; no normal tissues or therapeutic window.",
+    "Functional locus concordance does not prove that the protein product causes the phenotype.",
+    "All intervals are exploratory nominal intervals in a long retrospective research program."
+  ]
+}

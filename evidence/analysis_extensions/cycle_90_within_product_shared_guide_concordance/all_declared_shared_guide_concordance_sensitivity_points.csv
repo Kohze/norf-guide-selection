@@ -1,0 +1,8 @@
+analysis,cell,products,guides,correlation
+cell_specific,A375,105,471,0.6244729586393384
+cell_specific,A549,105,471,0.755696123853342
+cell_specific,HEPG2,105,471,0.648733530902564
+min4_shared_guides,all3,87,417,0.6511451790749968
+both_screen_splice_safe_min3,all3,99,442,0.646161909720573
+within_product_cell_guide_ranks,all3,105,471,0.4805043143957286
+descriptive_GC_by_cell_adjusted,all3,105,471,0.6410469318041875

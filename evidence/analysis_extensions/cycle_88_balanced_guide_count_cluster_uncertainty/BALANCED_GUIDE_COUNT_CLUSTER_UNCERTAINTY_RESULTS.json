@@ -1,0 +1,73 @@
+{
+  "utc": "2026-10-15T16:17:21.188609+00:00",
+  "status": "complete",
+  "posthoc_robustness_not_primary_discovery": true,
+  "products": 88,
+  "clusters": 88,
+  "cells": [
+    "A375",
+    "A549",
+    "HEPG2"
+  ],
+  "guide_plans": 1000,
+  "cluster_draws": 2000,
+  "estimates": {
+    "reused_minus_fresh_rank_agreement": {
+      "point": 0.08631775733343165,
+      "CI97_5": [
+        -0.09387537268920436,
+        0.2679371790788387
+      ],
+      "undefined_cluster_draws": 0
+    },
+    "fresh_minus_reused_LFC": {
+      "point": 0.010474683911799277,
+      "CI97_5": [
+        -0.06756122882588526,
+        0.09019222758053089
+      ],
+      "undefined_cluster_draws": 0
+    }
+  },
+  "explicit_duplicate_verification": {
+    "checks": 2400,
+    "maximum_absolute_difference": 2.220446049250313e-16,
+    "status": "pass"
+  },
+  "all1000_point_plan_statistics_match_C87": true,
+  "all_bootstrap_undefined_plan_cell_correlations": 0,
+  "point_MC_diagnostics": {
+    "first500_gap_mean": 0.08666524805623434,
+    "last500_gap_mean": 0.08597026661062898,
+    "gap_MCSE": 0.0015160720580003084,
+    "delta_MCSE": 0.0008133308406869489
+  },
+  "input_pins": [
+    {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\exploration_2026-10-11\\novelty_discovery\\cycle_87_fresh_guide_cross_screen_nORF_validation\\all2000_primary_cluster_resampling_plans.json.gz",
+      "bytes": 193883,
+      "sha256": "e9b7d312494ca9da8e58dbc541c53349007a6fec9eef3654d46e764edc8e455f"
+    },
+    {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\exploration_2026-10-11\\novelty_discovery\\cycle_87_fresh_guide_cross_screen_nORF_validation\\all1000_balanced_guide_selection_plans.json.gz",
+      "bytes": 106335,
+      "sha256": "c1a9c0066966d822730ac9b362ff9184a014ec7139d1e7e8d1368f314a8188c8"
+    },
+    {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\exploration_2026-10-11\\novelty_discovery\\cycle_87_fresh_guide_cross_screen_nORF_validation\\all381_primary_product_cell_guide_group_statistics.csv",
+      "bytes": 52601,
+      "sha256": "831e18c2f7d6c56a267905434b21fbd094bf5c3f1a22fa4c613a05dc60292bcb"
+    },
+    {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\exploration_2026-10-11\\novelty_discovery\\cycle_35_guide_replicates_and_medical_provenance\\all_original_table13_B_guide_measurements.csv",
+      "bytes": 7131153,
+      "sha256": "800d787f16be08e64fe183ac514cb871e84cdb4a7965aeeb1f97ff938b1376a1"
+    },
+    {
+      "path": "C:\\Users\\robin\\phdData\\norfs\\exploration_2026-10-11\\novelty_discovery\\cycle_88_balanced_guide_count_cluster_uncertainty\\FROZEN_POSTHOC_BALANCED_GUIDE_CLUSTER_UNCERTAINTY_PROTOCOL.json",
+      "bytes": 1989,
+      "sha256": "66dff989b17a89a6186f3d14605199466dc047cf400ffc687e1b496fc8be662d"
+    }
+  ],
+  "elapsed_seconds": 18.07800000000134
+}

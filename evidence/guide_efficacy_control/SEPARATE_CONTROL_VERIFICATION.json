@@ -1,0 +1,100 @@
+{
+  "status": "pass",
+  "separate_endpoint_implementation": true,
+  "conditions_verified": 12,
+  "synthetic_product_selection_contrasts_verified": 24000,
+  "enumerated_product_context_random_pair_expectations": 72000,
+  "analytical_centring_identity_verified": true,
+  "results": [
+    {
+      "condition": "shared_efficacy",
+      "noise_sd": 0.0,
+      "residual_r": 0.9999999999999688,
+      "mean_shift": -0.30000000000000016,
+      "all_random_pair_expectations_verified": true
+    },
+    {
+      "condition": "equal_efficacy",
+      "noise_sd": 0.0,
+      "residual_r": null,
+      "mean_shift": 0.0,
+      "all_random_pair_expectations_verified": true
+    },
+    {
+      "condition": "permuted_later_labels",
+      "noise_sd": 0.0,
+      "residual_r": -0.00829999999999999,
+      "mean_shift": 0.005850000000000005,
+      "all_random_pair_expectations_verified": true
+    },
+    {
+      "condition": "shared_efficacy",
+      "noise_sd": 0.25,
+      "residual_r": 0.6368590744062472,
+      "mean_shift": -0.26820191637580126,
+      "all_random_pair_expectations_verified": true
+    },
+    {
+      "condition": "equal_efficacy",
+      "noise_sd": 0.25,
+      "residual_r": -0.00924033916681872,
+      "mean_shift": 0.0008291489572009074,
+      "all_random_pair_expectations_verified": true
+    },
+    {
+      "condition": "permuted_later_labels",
+      "noise_sd": 0.25,
+      "residual_r": 0.010816479424956348,
+      "mean_shift": 0.0041072411554399476,
+      "all_random_pair_expectations_verified": true
+    },
+    {
+      "condition": "shared_efficacy",
+      "noise_sd": 0.5,
+      "residual_r": 0.31219193653686367,
+      "mean_shift": -0.18802649878796193,
+      "all_random_pair_expectations_verified": true
+    },
+    {
+      "condition": "equal_efficacy",
+      "noise_sd": 0.5,
+      "residual_r": 0.006220315218897007,
+      "mean_shift": -0.0036833779301551385,
+      "all_random_pair_expectations_verified": true
+    },
+    {
+      "condition": "permuted_later_labels",
+      "noise_sd": 0.5,
+      "residual_r": -0.012805323294006419,
+      "mean_shift": 0.0017375060699481395,
+      "all_random_pair_expectations_verified": true
+    },
+    {
+      "condition": "shared_efficacy",
+      "noise_sd": 1.0,
+      "residual_r": 0.11186032107347456,
+      "mean_shift": -0.12422499241894698,
+      "all_random_pair_expectations_verified": true
+    },
+    {
+      "condition": "equal_efficacy",
+      "noise_sd": 1.0,
+      "residual_r": 0.002672868564599512,
+      "mean_shift": -0.0035828589339598196,
+      "all_random_pair_expectations_verified": true
+    },
+    {
+      "condition": "permuted_later_labels",
+      "noise_sd": 1.0,
+      "residual_r": 0.008893582958006834,
+      "mean_shift": -0.0026890277704168914,
+      "all_random_pair_expectations_verified": true
+    }
+  ],
+  "limitation": "Computational verification of an illustrative model; not independent biological validation.",
+  "input_sha256": {
+    "all_synthetic_guide_outcomes.npz": "b0c7cb0b43319912e30c01bb1e5cc8dfeff85eb001e90bfc3803a76fd5988296",
+    "synthetic_control_summary.csv": "11806da753be3f63b34921305204eb7fdd04cc28a9cd4103d9fe8ba57b843e0b",
+    "all_synthetic_product_selection_contrasts.csv": "8f5ee7cf4ad211e20959f44453a7c53902fe35c70af5fc923279cd8d1c0f6bee"
+  }
+}

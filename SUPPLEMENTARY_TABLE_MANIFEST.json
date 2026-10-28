@@ -1,0 +1,216 @@
+{
+  "utc": "2026-10-28T11:40:31.177386+00:00",
+  "tables": [
+    {
+      "table": "S01",
+      "path": "supplementary/S01_all553_original2021_cross_screen_identity_denominators.csv",
+      "bytes": 19444,
+      "sha256": "e6a3387b37f360e380a45118e8d7b35a91d7a0de95b2ff3f54e5adf4be1907b7"
+    },
+    {
+      "table": "S02",
+      "path": "supplementary/S02_all2196_original2026_cross_screen_identity_denominators.csv",
+      "bytes": 64880,
+      "sha256": "f17a365ccddd56841c1f3d3e78384ce242d580f7db4b9242cdb4990a7fa04060"
+    },
+    {
+      "table": "S03",
+      "path": "supplementary/S03_all_source_gene_or_coding_overlap_cross_screen_product_pairs.csv",
+      "bytes": 61910,
+      "sha256": "61d32c65a971eb9da239c6c6d37024c6f2d4b575d9ea29af9fd502c662b34c32"
+    },
+    {
+      "table": "S04",
+      "path": "supplementary/S04_all_exact20nt_guides_reused_across_source_ORF_libraries.csv",
+      "bytes": 34621,
+      "sha256": "f34a6fa3aae10f2caf56290b860538bbff6b375259f06d2f90c78171d3f8271a"
+    },
+    {
+      "table": "S05",
+      "path": "supplementary/S05_all127_complete_product_outcome_eligibility_and_denominators.csv",
+      "bytes": 18380,
+      "sha256": "6b0600b8c2da5e14f23b84f1dff0c180d3cc95bbc7bec0f0f6554376433d1c2e"
+    },
+    {
+      "table": "S06",
+      "path": "supplementary/S06_all381_primary_product_cell_guide_group_statistics.csv",
+      "bytes": 52601,
+      "sha256": "831e18c2f7d6c56a267905434b21fbd094bf5c3f1a22fa4c613a05dc60292bcb"
+    },
+    {
+      "table": "S07",
+      "path": "supplementary/S07_all_declared_primary_and_sensitivity_point_estimates.csv",
+      "bytes": 710,
+      "sha256": "026103bb27623cfc3363d2d2e08ee6f9e8ccc76c38ad70e45820a9fcf3604b40"
+    },
+    {
+      "table": "S08",
+      "path": "supplementary/S08_all_declared_cell_specific_cross_screen_rank_correlations.csv",
+      "bytes": 2118,
+      "sha256": "796a31edeb2b94f0ec38262942a70c96a040f7009668b230d8df494995856060"
+    },
+    {
+      "table": "S09",
+      "path": "supplementary/S09_all3_leave_one_common_cell_out_point_estimates.csv",
+      "bytes": 229,
+      "sha256": "82b6bb1fe3dbe619f6a70adf985ffa5d5bf1191de6fc498f4f39b2c51503a3d8"
+    },
+    {
+      "table": "S10",
+      "path": "supplementary/S10_all2000_balanced_plan_averaged_cluster_bootstrap_statistics.csv",
+      "bytes": 103297,
+      "sha256": "f263784f3b9382bd451d04ce3b081ff51d009361b07454aa4493517da719880c"
+    },
+    {
+      "table": "S11",
+      "path": "supplementary/S11_all127_shared_guide_concordance_metadata_cohorts.csv",
+      "bytes": 10209,
+      "sha256": "96ef2e150b5114ef1f5195bbd2d0e295c9c624c2210904cfb56c5b82c3a7eac8"
+    },
+    {
+      "table": "S12",
+      "path": "supplementary/S12_all1413_primary_shared_guide_cell_paired_residuals.csv",
+      "bytes": 768215,
+      "sha256": "6b04a82d2ebc99bc8c361d94ddff901efeb753aa2f423d8d9aa7a6f5c3eb89fe"
+    },
+    {
+      "table": "S13",
+      "path": "supplementary/S13_all_declared_shared_guide_concordance_sensitivity_points.csv",
+      "bytes": 424,
+      "sha256": "cfd380008794f1d2824107fcee3280c3eaaaee8291a51331db2229489ef60f69"
+    },
+    {
+      "table": "S14",
+      "path": "supplementary/S14_all105_single_product_omission_estimates.csv",
+      "bytes": 3269,
+      "sha256": "ac4674743bd531f5a03c9ee6508e5be53145263bc95c68e2925807ccaeadf2ba"
+    },
+    {
+      "table": "S15",
+      "path": "supplementary/S15_all1413_shared_guide_covariance_decomposition_rows.csv",
+      "bytes": 882704,
+      "sha256": "f24a614576c4bbafb9e944f7b09c07811d8361db119786e2827018cd2837072c"
+    },
+    {
+      "table": "S16",
+      "path": "supplementary/S16_all145_within_gene_pair_eligibility_before_outcome_join.csv",
+      "bytes": 100804,
+      "sha256": "e5c0fdf568ab6f2c8cf90feda2b4f9c81f9b82b55a39e5fadb596d875ccae573"
+    },
+    {
+      "table": "S17",
+      "path": "supplementary/S17_all1160_within_gene_pair_cell_outcomes.csv",
+      "bytes": 413003,
+      "sha256": "26d57819851c0f88805c01e35a4a36e6eb9dad42658c256dfd112b3e8048c991"
+    },
+    {
+      "table": "S18",
+      "path": "supplementary/S18_all127_exploratory_Ewing_pair_contrasts_and_qualification.csv",
+      "bytes": 38112,
+      "sha256": "e2553447aa254ace8d193f919395c842651b0306a1ab8b03a357ebccde479fc8"
+    },
+    {
+      "table": "S19",
+      "path": "supplementary/S19_all553_original2021_complete_sequence_models_before_cross_screen_comparison.csv",
+      "bytes": 700785,
+      "sha256": "bdb7af7c72318e24e376bab4276498a726f70bf45f1626c4b05afc7773a629b2"
+    },
+    {
+      "table": "S20",
+      "path": "supplementary/S20_all2196_original2026_complete_sequence_models_before_cross_screen_comparison.csv",
+      "bytes": 1111117,
+      "sha256": "66d745fc2d5e3574ce9181a587fb7644c4c8eb85f12633d714db56ae42c41f68"
+    },
+    {
+      "table": "S21",
+      "path": "supplementary/S21_all127_followup_product_metadata_cohorts.csv",
+      "bytes": 8565,
+      "sha256": "221c8860f204ad6284bf9ff97be8cb6aa6c6f5121f667a229cb985cd07a8dc58",
+      "description": "All 127 complete-product pairs and metadata guide counts for the additional assay."
+    },
+    {
+      "table": "S22",
+      "path": "supplementary/S22_all720_followup_guide_metadata_eligibility.csv",
+      "bytes": 211224,
+      "sha256": "8f8d730df84fa11d6748e3c8c665ce18fdf9621941b44dc9b761299fe23662aa",
+      "description": "All 720 newer guide-product rows with secondary-library membership, literal-name correspondence, count coverage and exclusions."
+    },
+    {
+      "table": "S23",
+      "path": "supplementary/S23_primary_followup_paired_residuals.csv",
+      "bytes": 76126,
+      "sha256": "9207d226a4e2b4c7a509f074fe7f00bdebd3a86f8944aa05d8dc08ef5c91db80",
+      "description": "All 144 main follow-up guide-cell pairs, source endpoints, centred responses and equal-product/equal-cell weights."
+    },
+    {
+      "table": "S24",
+      "path": "supplementary/S24_all_declared_followup_sensitivities.csv",
+      "bytes": 589,
+      "sha256": "908c693052d704724182255da8a64d6702a1b3d67a964a24d3243d02a58e4b41",
+      "description": "All seven declared primary and sensitivity points, with their cohort sizes."
+    },
+    {
+      "table": "S25",
+      "path": "supplementary/S25_all1251_guide_cell_outcomes_and_older_only_selections.csv",
+      "bytes": 708373,
+      "sha256": "5c9f7495dfb5308839b60c3849a28d57aa4a3f82e720a23cd4fc40fb4ffb0260",
+      "description": "All 1,251 guide-cell records in the 87-product selection cohort, including older-only guide ranks and selection flags."
+    },
+    {
+      "table": "S26",
+      "path": "supplementary/S26_all261_product_cell_selection_contrasts.csv",
+      "bytes": 58068,
+      "sha256": "62ff95a64f2a58d09469e422940e7f8d8e81368b845b8b673f11d6334bc71cff",
+      "description": "All 261 product-cell contrasts between the older-selected two-guide score and the exact random-pair expectation."
+    },
+    {
+      "table": "S27",
+      "path": "supplementary/S27_all87_product_selection_shifts_and_rank_sensitivity.csv",
+      "bytes": 17729,
+      "sha256": "795539ee09d71ce110a43a63abdc5f637a67b6b5f8bcdbe19db60e6d2697e9c1",
+      "description": "All 87 product-average selection shifts, selected sequences and descriptive top-20% ranking sensitivity, including random-pair selection fractions."
+    },
+    {
+      "table": "S28",
+      "path": "supplementary/S28_all_metadata_eligibility_and_dependence_before_outcomes.csv",
+      "bytes": 71845,
+      "sha256": "83032c2fdb2eb2876fc98c3016d31d6ade0426f97aedd3aa684a1009dd706930"
+    },
+    {
+      "table": "S29",
+      "path": "supplementary/S29_all_primary_product_pairs_and_rank_overlap.csv",
+      "bytes": 83554,
+      "sha256": "5dc294b85cf6e19c1f8bcfea8122b07877f56c4822a96d9047942a769c64a51e"
+    },
+    {
+      "table": "S30",
+      "path": "supplementary/S30_all_declared_descriptive_sensitivities.csv",
+      "bytes": 407,
+      "sha256": "6adb5970e61d169b9bc7394cc375f84457c636708c4197ea70c4f82f3cf0b993"
+    },
+    {
+      "table": "S31",
+      "path": "supplementary/S31_context_excluded_selection_summary.csv",
+      "bytes": 799,
+      "sha256": "d3bf0acc212a4ee48b41ef2df68cfa2ffd487508278a4229dd2743cc851c02f3"
+    },
+    {
+      "table": "S32",
+      "path": "supplementary/S32_all261_context_excluded_product_cell_contrasts.csv",
+      "bytes": 46466,
+      "sha256": "22ee0555893a14b6d48b226de3695e5d936cfb92283849104e5446901206d7f8"
+    },
+    {
+      "table": "S33",
+      "path": "supplementary/S33_synthetic_efficacy_control_summary.csv",
+      "bytes": 956,
+      "sha256": "11806da753be3f63b34921305204eb7fdd04cc28a9cd4103d9fe8ba57b843e0b"
+    },
+    {
+      "table": "S34",
+      "path": "supplementary/S34_all_synthetic_product_selection_contrasts.csv",
+      "bytes": 1159716,
+      "sha256": "8f5ee7cf4ad211e20959f44453a7c53902fe35c70af5fc923279cd8d1c0f6bee"
+    }
+  ]
+}

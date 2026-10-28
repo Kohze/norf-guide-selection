@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-16T18:45:07.174Z",
+  "status": "fixed_before_computing_new_selection_contrasts",
+  "design": "Retrospective worked guide-selection scenario, not preregistration or a new independent validation.",
+  "known": "All C90 underlying guide outcomes and residual correlations already known.",
+  "universe": "C90 main105products;restrict to>=4qualified_shared_guides, yielding87products/417guides;all3fixed common cells.",
+  "selection": "For each product rank guides by equal-cell mean older2021 LFC. Select the2most-depleted guides (lowest old mean), break exact ties lexicographically by20ntsequence. Apply this single guide choice across all3newer cells. No newer outcomes used for selection.",
+  "primary_endpoint": "Equal-product/equal-cell mean(newer LFC of selected2 minus mean newer LFC of all eligible shared guides). All-guide mean equals expectation under uniform random2guide selection, so this compares equal-count selection strategies in expectation.",
+  "uncertainty": "2000 inherited dependence-cluster bootstrap draws seed20261018, nominal95%percentileCI;all cells and guide profiles move jointly.",
+  "secondary_descriptive": [
+    "Per-cell selection shift",
+    "Older-screen selection shift as training quantity, explicitly separate from transfer",
+    "All87product-level shifts and selected sequences",
+    "All87single-product omissions",
+    "Rank overlap at fixed top20%follow-up priority budget based on selected2 versus all-guide mean;descriptive sensitivity to guide selection, not error rate",
+    "1000random2selection plans seed20261019 for count-matched rank stability context;selection spread is not a biological confidence interval."
+  ],
+  "limits": [
+    "The worked selection strategy was not used by either source study as far as this reanalysis establishes.",
+    "More-depleting selected guides may have better on-target editing activity;shift does not identify false positives or technical bias.",
+    "Count-balanced reused-versus-fresh product comparison remains uncertain.",
+    "Do not score individual candidate failures or add new medical targets from this scenario.",
+    "Nominal intervals condition on this retrospective question and fixed contexts."
+  ]
+}

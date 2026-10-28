@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-28",
+  "status": "specified_before_new_control_computation; all_manuscript_outcomes_already_known",
+  "authorization": "User requested the proposed explanation as a control, at least in the appendix.",
+  "question": "Can a true product dependency with shared on-target guide efficacy generate persistent centred responses and a transferred guide-selection shift?",
+  "kind": "Analytical counterexample and fixed-parameter synthetic positive control; not a fitted explanation or a significance test of the empirical data",
+  "model": "Y(s,p,g,c)=a(p,g)*theta(s,p,c)+epsilon(s,p,g,c)",
+  "efficacies": [0.25, 0.5, 0.75, 1.0],
+  "older_context_effects": [-0.4, -0.8, -1.2],
+  "later_context_effects": [-0.6, -1.2, -1.8],
+  "independent_gaussian_noise_sd": [0.0, 0.25, 0.5, 1.0],
+  "synthetic_products": 2000,
+  "fixed_contexts": 3,
+  "guides_per_synthetic_product": 4,
+  "seed": 20261028,
+  "conditions": [
+    "Shared heterogeneous efficacies in both screens",
+    "Equal efficacy 0.625 for every guide in both screens",
+    "Shared heterogeneous efficacies but later guide labels independently permuted within product, jointly across contexts"
+  ],
+  "comparability": "Use the same realized synthetic noise arrays for all conditions at a noise level; label permutation retains later whole-guide context profiles.",
+  "endpoints": [
+    "Equal-product/equal-context Pearson correlation after separate product-context centring; undefined if residual variance is zero",
+    "Select two guides with lowest older equal-context mean; later selected mean minus later all-guide mean, averaged equally over synthetic products and contexts"
+  ],
+  "analytical_checks": [
+    "Centring leaves (a-mean(a))*theta plus centred noise",
+    "Noiseless shared-efficacy residual correlation is one because the two context-effect vectors are proportional",
+    "Noiseless shared-efficacy selection shift is (0.875-0.625)*(-1.2)=-0.3",
+    "Uniform random-two-guide expectation equals all-guide mean for every product/context",
+    "Equal-efficacy noiseless residual correlation is undefined, with zero selection contrast"
+  ],
+  "no_tuning": "Do not change parameters after viewing control outputs; no fitting to the observed r or selection shift, no target discovery and no empirical fraction explained.",
+  "regional_control_decision": "Metadata feasibility only in this revision: 26 literal source hg19-qualified region families, 8 matching current exact-product pairs, 5 in current min3-shared-guide follow-up cohort. Whole-product and comparator-cut geometry remain unqualified; source tiling precedent already exists.",
+  "manuscript_action": "Add explicit assay explanation and interpretation boundary, Supplementary Note 4, Figure S3 and complete synthetic control outputs. Keep all empirical results and existing artwork unchanged."
+}

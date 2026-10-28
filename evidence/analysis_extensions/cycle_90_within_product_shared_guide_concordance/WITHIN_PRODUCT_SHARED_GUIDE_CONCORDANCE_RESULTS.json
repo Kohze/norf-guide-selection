@@ -1,0 +1,82 @@
+{
+  "utc": "2026-10-15T20:03:18.354814+00:00",
+  "status": "frozen_analysis_complete_pending_independent_verification",
+  "primary": {
+    "products": 105,
+    "clusters": 105,
+    "unique_shared_guides": 471,
+    "guide_cell_pairs": 1413,
+    "equal_product_cell_residual_Pearson": 0.643240817314233,
+    "cluster_bootstrap_CI95": [
+      0.5758356246848134,
+      0.6964913047777839
+    ],
+    "bootstrap_draws": 2000,
+    "within_product_guide_identity_permutation_two_sided_P": 0.0001999600079984003,
+    "permutation_draws": 5000
+  },
+  "secondary": [
+    {
+      "analysis": "cell_specific",
+      "cell": "A375",
+      "products": 105,
+      "guides": 471,
+      "correlation": 0.6244729586393384
+    },
+    {
+      "analysis": "cell_specific",
+      "cell": "A549",
+      "products": 105,
+      "guides": 471,
+      "correlation": 0.755696123853342
+    },
+    {
+      "analysis": "cell_specific",
+      "cell": "HEPG2",
+      "products": 105,
+      "guides": 471,
+      "correlation": 0.648733530902564
+    },
+    {
+      "analysis": "min4_shared_guides",
+      "cell": "all3",
+      "products": 87,
+      "guides": 417,
+      "correlation": 0.6511451790749968
+    },
+    {
+      "analysis": "both_screen_splice_safe_min3",
+      "cell": "all3",
+      "products": 99,
+      "guides": 442,
+      "correlation": 0.646161909720573
+    },
+    {
+      "analysis": "within_product_cell_guide_ranks",
+      "cell": "all3",
+      "products": 105,
+      "guides": 471,
+      "correlation": 0.4805043143957286
+    },
+    {
+      "analysis": "descriptive_GC_by_cell_adjusted",
+      "cell": "all3",
+      "products": 105,
+      "guides": 471,
+      "correlation": 0.6410469318041875
+    }
+  ],
+  "all105_product_omission_range": [
+    0.6268642825668305,
+    0.6524553825377472
+  ],
+  "covariance_decomposition": {
+    "within_product_covariance": 0.04666914891600092,
+    "between_product_covariance": 0.028435912019676407,
+    "total_cell_centered_covariance": 0.07510506093567733,
+    "within_fraction_of_covariance": 0.6213848751946298,
+    "not_variance_explained_or_causal_fraction": true
+  },
+  "does_not_change_uncertain_C88_balanced_product_level_gap": true,
+  "peptide_specific_causality_or_medical_target_established": false
+}

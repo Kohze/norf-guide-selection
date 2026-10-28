@@ -1,0 +1,58 @@
+{
+  "utc": "2026-10-28T19:46:28.376148+00:00",
+  "status": "pass",
+  "manifest_files_checked": 222,
+  "source_data_unchanged": true,
+  "output": "Isolated local validation directory; raw local paths omitted from public receipt",
+  "full_balanced_resampling_regenerated": true,
+  "figure_masters_regenerated": true,
+  "steps": [
+    {
+      "script": "evidence/analysis_extensions/cycle_90_within_product_shared_guide_concordance/analyze_frozen_within_product_shared_guide_concordance.py",
+      "exit_code": 0,
+      "log": "01_analyze_frozen_within_product_shared_guide_concordance.log"
+    },
+    {
+      "script": "evidence/analysis_extensions/cycle_93_transferred_guide_selection/analyze_guide_selection.py",
+      "exit_code": 0,
+      "log": "02_analyze_guide_selection.log"
+    },
+    {
+      "script": "code/frozen_replay.py",
+      "exit_code": 0,
+      "log": "03_frozen_replay.log"
+    },
+    {
+      "script": "code/analyze_context_exclusion.py",
+      "exit_code": 0,
+      "log": "04_analyze_context_exclusion.log"
+    },
+    {
+      "script": "code/verify_context_exclusion.py",
+      "exit_code": 0,
+      "log": "05_verify_context_exclusion.log"
+    },
+    {
+      "script": "code/analyze_efficacy_control.py",
+      "exit_code": 0,
+      "log": "06_analyze_efficacy_control.log"
+    },
+    {
+      "script": "code/verify_efficacy_control.py",
+      "exit_code": 0,
+      "log": "07_verify_efficacy_control.log"
+    },
+    {
+      "script": "evidence/analysis_extensions/cycle_88_balanced_guide_count_cluster_uncertainty/run_balanced_guide_count_cluster_uncertainty.py",
+      "exit_code": 0,
+      "log": "08_run_balanced_guide_count_cluster_uncertainty.log"
+    },
+    {
+      "script": "code/make_journal_figures.py",
+      "exit_code": 0,
+      "log": "09_make_journal_figures.log"
+    }
+  ],
+  "scope": "Frozen-input statistical replay and figure rebuilding; original-source fetch and genome geometry scans are separate.",
+  "validated_input_manifest": "provenance/VALIDATED_ANALYSIS_INPUT_MANIFEST.json"
+}

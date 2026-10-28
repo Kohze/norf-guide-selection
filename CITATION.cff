@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and the original source studies."
+title: "Guide selection transfers depletion effects across noncanonical ORF screens"
+type: software
+authors:
+  - family-names: Gounder
+    given-names: Robin
+    affiliation: University of Cambridge
+  - family-names: Schmidt
+    given-names: Samuel
+    affiliation: Vaionex Corporation
+version: "2026.10.28"
+date-released: 2026-10-28
+license: MIT
+repository-code: "https://github.com/Kohze/norf-guide-selection"

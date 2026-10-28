@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-15T15:15:58.195Z",
+  "status": "frozen_before_new_cross_screen_product_and_guide_identity_comparisons",
+  "question": "When two human fitness screens are linked by gene or overlapping coding locus, do they test an identical complete product, a shared-start splice/stop variant, or another ORF, and do they reuse the same guide reagents?",
+  "prior_information_disclosed": [
+    "Older553sourceORFs and newer2196sourceORFs, their full phenotypes and individual source/genome models have been inspected in prior work. This is retrospective identity/replication analysis, not a blind new functional cohort.",
+    "Known motivating case: OLMALINC older101AA, phase1/structure100AA and current123AA-compatibleRNAs. Neither full rescueconstruct nor variant-specific translation established.",
+    "PreviousC43-C50full-product cross-cohort work concerned peptide origin and catalogue priors, not this all-target fitness-screen identity/reagent comparison.",
+    "ExistingC66andC70genome,CDScontext,guide andsourceIDaudits are reused; no fullgenome guide scan or score fit is repeated."
+  ],
+  "complete_source_universes": {
+    "older_original_candidates": 553,
+    "older_exact_reference_models": 551,
+    "older_unmapped_candidates_retained": 2,
+    "newer_original_native_targets": 2196,
+    "newer_source_cell_rows": 17568
+  },
+  "primary_identity_rules": [
+    "Keep every original source candidate, native target, full sequence, source ID, genomic model and unresolved status.",
+    "Generate all pairs with a literal stable sourceEnsemblgeneID match or samechromosome/samestrand positive coding-exon overlap; preserve the independent reasons. No symbol-only alias rescue.",
+    "Complete mature coding DNA includes the supplied terminalstop convention; exact full reference coding chain and exact complete DNA sequence are distinct fields.",
+    "Report full chain/DNA identity, literal complete AA identity, identical genomic initiation base, same-frame coding overlap, complete amino-acid containment and maximum shared prefix/suffix. Preserve related but nonidentical products.",
+    "Near-cognate initiation may yield methionine experimentally; primary translation is literal standardcode. A separate explicitlylabelled first-residue-to-M sensitivity is allowed only for source documented near-cognate startcodons, never interior sequence repair.",
+    "Original printed protein strings and referenceDNA-derived products are kept separate; prior source DNA-AA disagreement flags remain visible.",
+    "Source gene-name agreement, shared peptide or shared coding segment is not full product identity. Conversely, different complete products can share a biological function; mismatch does not invalidate a locus phenotype."
+  ],
+  "guide_rules": [
+    "Compare all source-assigned exact20ntguide strings across cohorts, retaining every source assignment and multi-target status.",
+    "A secondary uniquely placed primaryNGGview uses existing independentlyverified reference sites, requiring expectedcutinside assignedORF; no new mismatch-tolerant off-target prediction.",
+    "For each related product pair classify guidecutinbothcodingbodies versus onlyone. This is expected reference coding geometry, not an observed edit or protein-specific perturbation.",
+    "Exactguide reuse is reagent reuse, not proof that separate experiments are biologically dependent or invalid."
+  ],
+  "statistics": "Complete descriptive inventories and denominators first; no functional-outcome comparison, ranking, significance test, cutpoint tuning or causal inference is authorized by this protocol. Any outcome analysis needs a separate design/comparability declaration before its new identity-conditioned outcome join.",
+  "medical_usefulness": "Quantify when functional or structure evidence supports a shared coding family versus a specified complete medical-target product. Do not claim clinical efficacy, safety, new translation, or absolute novelty from reference mismatch alone.",
+  "scope": "Existing public processed sources and exact cached reference only; computational; no rawreads, paidinference, authorcontact or externalpublication."
+}

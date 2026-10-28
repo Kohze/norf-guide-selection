@@ -1,0 +1,110 @@
+{
+  "balanced_stage": "Read the released, already reconstructed mean-log abundance LFCs. Same guide plans, cluster plans, ranks and endpoints; original-source reconstruction remains in the archived verification scripts.",
+  "original_script_hashes": [
+    {
+      "path": "evidence/analysis_extensions/cycle_86_cross_screen_complete_product_and_reagent_identity/compare_all_cross_screen_products_and_source_reagents.py",
+      "original_sha256": "e16d5fde132e84f07da8800916fa5a40a0bd0b4bf459b4cf0eb15801c6b01d24"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_86_cross_screen_complete_product_and_reagent_identity/prepare_all_source_reference_models_before_comparison.py",
+      "original_sha256": "4032b4c99a81061a6a4f71aa9de4f71bc5b1646048ad3d7473978cda0bb8c520"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_86_cross_screen_complete_product_and_reagent_identity/verify_cross_screen_pairs_and_reagents_independently.py",
+      "original_sha256": "9e4119d306560ef0fa4f066a770c2216d546dbec3c08fd51b65ce1299a9acbab"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_87_fresh_guide_cross_screen_nORF_validation/prepare_complete_guide_roles_eligibility_and_clusters_before_outcomes.py",
+      "original_sha256": "e2012b911502d6645c62adfc19d5d57e1273bcda64d6d99065d76673748a3082"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_87_fresh_guide_cross_screen_nORF_validation/run_frozen_fresh_guide_validation_and_sensitivities.py",
+      "original_sha256": "eb5d06794a767b20328bf5512d508cfb01c71d44ede2834507bd319dfb18c712"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_87_fresh_guide_cross_screen_nORF_validation/verify_fresh_guide_source_and_all_resampling_independently.py",
+      "original_sha256": "efcfd363810db299f666b44aee3d52a5d679788c3dccf05725904ee92e41652e"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_88_balanced_guide_count_cluster_uncertainty/run_balanced_guide_count_cluster_uncertainty.py",
+      "original_sha256": "ccda285c950c43468604753ec72e442d66858485c86b3a550d52c7f6033c1899"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_89_within_locus_product_dependency_discovery/analyze_frozen_within_locus_functional_partition.py",
+      "original_sha256": "b06d6dc61666307ac08bdb68df41d4954e8cef6fafb719ad6fafd5556d0fc09a"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_89_within_locus_product_dependency_discovery/prepare_within_locus_metadata_and_guide_eligibility.py",
+      "original_sha256": "0cd4cba16e3e270fa01dc2736ee6b4db11415e5dbc64228dedaaf2b0c1f2eff5"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_89_within_locus_product_dependency_discovery/verify_primary_endpoint_with_independent_dummy_regression.py",
+      "original_sha256": "d784fdcf275f11e30247a8035e84197928bed6eb398fe78960ee7a00b482101a"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_90_within_product_shared_guide_concordance/analyze_frozen_within_product_shared_guide_concordance.py",
+      "original_sha256": "674180dfe0e435144206e25c86d996f58624d5cd0d2c5e352746cde8bc646302"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_90_within_product_shared_guide_concordance/prepare_canonical_control_metadata_feasibility.py",
+      "original_sha256": "1622ff1e8abe07453a9ce44a0c92e0fb47eb26220db2c35e39e4952a44f222b5"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_90_within_product_shared_guide_concordance/prepare_outcome_blind_shared_guide_concordance_cohort.py",
+      "original_sha256": "b746e22e6e4c2f367c03c6028cc16d0b170e802435be32bbb084b7090e8c2574"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_90_within_product_shared_guide_concordance/verify_original_sources_and_explicit_shared_guide_statistics.py",
+      "original_sha256": "d38b65c54858a31c85a3f0846bfaa248952b7a12bb4bb28cea4bf4bad22bf4b0"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_92_secondary_screen_guide_validation/analyze_followup_screen.py",
+      "original_sha256": "a142426d55d674c99c336324cfff03390eda7e447d4937080c2636edda840446"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_92_secondary_screen_guide_validation/verify_followup_screen.py",
+      "original_sha256": "ba2805dc1942ff4a2cc2aad80a73a069ae39e741076e0024e691402bc532f82c"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_93_transferred_guide_selection/analyze_guide_selection.py",
+      "original_sha256": "e71514c1650fd63e2bdc4402b82f431c529af41f6038e5ddae057e3d9fbf0647"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_93_transferred_guide_selection/verify_guide_selection.py",
+      "original_sha256": "74c7b27337966ff392aee0fd39badfca27d6362fa989a4b8403a1a54c53cc21c"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_94_independent_product_replication/analyze_product_concordance.py",
+      "original_sha256": "b297e2773935f056a6a897acafac9bfe4c5e36616a91297f6067a0cc0e352a99"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_94_independent_product_replication/assess_publication_scope.py",
+      "original_sha256": "01b2e3f497425adb8d978c1840ade878744a7bbb284378fac331338c42d16dc4"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_94_independent_product_replication/freeze_protocol.py",
+      "original_sha256": "197fa23095301867701db8b31364ee7e6d1212c2b2995b16cf17333e46e130a1"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_94_independent_product_replication/intake_metadata.py",
+      "original_sha256": "4569b94fe0e8b50803d1176aad49990297675978d0f96ff9234c4241e0359b5f"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_94_independent_product_replication/intake_supplement_metadata.py",
+      "original_sha256": "b9d6b80e4df5b643dbe1bad5e08b06673af545fd559327a9a4caf96b9f96f205"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_94_independent_product_replication/match_metadata.py",
+      "original_sha256": "b6d1e357aea78767ae11cc755b0bfc52d2214a79a7438bd8af0d9804da127ee6"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_94_independent_product_replication/prepare_cohort.py",
+      "original_sha256": "0824fa1f1779b8ef6887f093c0e644374d02674a9b38c28a360837bf8bf2bf7e"
+    },
+    {
+      "path": "evidence/analysis_extensions/cycle_94_independent_product_replication/verify_product_concordance.py",
+      "original_sha256": "4b8dcf71724f6f682e420a19f684fb2de4b2b2d87d8bb974f1afec3d7e82ef5d"
+    }
+  ],
+  "reference_preprocessing": "Original source/reference drivers retain their recorded workspace layout. The tested portable entrypoint is reproduce.py operating on released frozen inputs."
+}
