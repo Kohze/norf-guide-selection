@@ -6,9 +6,11 @@ authors:
   - family-names: Gounder
     given-names: Robin
     affiliation: University of Cambridge
+    email: robin@gounder.com
   - family-names: Schmidt
     given-names: Samuel
-    affiliation: Vaionex Corporation
+    affiliation: "Vaionex Corporation; Cornell University"
+    email: samuel@vaionex.com
 version: "2026.10.28"
 date-released: 2026-10-28
 license: MIT

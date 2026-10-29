@@ -1,8 +1,10 @@
 # Guide selection across noncanonical ORF screens
 
-Data and analysis pipeline for **Guide selection transfers depletion effects across noncanonical ORF screens**, by Robin Gounder (University of Cambridge) and Samuel Schmidt (Vaionex Corporation).
+Data and analysis pipeline for **Guide selection transfers depletion effects across noncanonical ORF screens**, by Robin Gounder (University of Cambridge) and Samuel Schmidt (Vaionex Corporation; Cornell University).
 
 The study matches complete reference ORFs and exact CRISPR guide identities across published human fitness screens. It quantifies persistent within-product guide responses and a retrospective guide-selection consequence. It does not establish a new peptide mechanism or medical target. Shared on-target efficacy acting on true dependencies can generate both patterns; the synthetic positive control demonstrates compatibility and does not fit an explanation of the observed data.
+
+Contacts: robin@gounder.com; samuel@vaionex.com.
 
 ## Reproduce the released analysis
 
