@@ -927,8 +927,8 @@
     },
     {
       "path": "publish_github.py",
-      "bytes": 2063,
-      "sha256": "6b3a078e010696b61d5df54068b11c18971b35194fb5d204a2f6fd2397b8d950"
+      "bytes": 4157,
+      "sha256": "fae76c6ee5e2d9de6dcd0485b5201c3f6305284751e2950047a332a09361b86f"
     },
     {
       "path": "README.md",
